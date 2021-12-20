@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/purple_500"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Beatles Anthology Vol. 1"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/subheading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Behind That Locked, Beatles Rarities!"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/article"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='Cerita berawali ketika seorang lelaki bernama Spence (Purefoy) memasukkan virus-T kedalam kotak, dan membawanya keluar. Salah satu dari virus tersebut sengaja ia pecahkan wadahnya dan akhirnya menginfeksi seisi The Hive. Spence kabur dan menyelamatkan diri.  Di lain tempat, Alice (Jovovich) sadar dari tidurnya di kamar mandi. Saat sadar, ia lupa pada semuanya (terkena amnesia). Ia lalu berpakaian dan melihat sebuah foto bahwa ia telah menikah. Lalu di jarinya ia melihat cincin pernikahan dengan tulisan “dibuat oleh Umbrella Corporation.”  Tak lama berselang, Alice ditangkap oleh Matt Addison (Mabius) yang mengaku sebagai seorang polisi. Lalu datang pula pasukan Umbrella Corporation dan menangkap mereka berdua. Lalu mereka digiring masuk kedalam sebuah kereta api. Pasukan tersebut menemukan Spence yang tengah pingsan di sisi kereta api. Kereta api tersebut berjalan hingga pintu masuk The Hive.  Dalam The Hive, tugas pasukan Umbrella tersebut adalah melumpuhkan sistem komputer mereka yang dikenal dengan nama Red Queen. Namun Red Queen malah membunuh semua anggota pasukan Umbrella kecuali Rain Ocampo (Rodriguez) dan Kaplan (Crewes).  Rain kemudian digigit oleh zombie. Dan gigitannya tersebut menimbukan infeksi yang bisa menyebabkan mutasi tubuh menjadi zombie. Mereka yang tersisa lalu menyisiri The Hive. Alice dan Matt kemudian berbicara, dan saat itu Matt mengaku bahwa dirinya bukanlah polisi, ia mencoba masuk The Hive karena ingin mengetahui adiknya yang bekerja di sana.  Alice juga mengaku bahwa ia adalah penghubung dari adik Matt tersebut. Namun Alice tidak bisa berkomentar banyak karena ia masih terserang amnesia.  Lalu semua anggota yang tersisa mencoba keluar dari The Hive. Kaplan memutuskan untuk memotong sirkuit Red Queen agar ia bisa dimatikan secara permanen. Red Queen mencoba menolong semua anggota tim. Sementara itu, Spence secara mendadak tersadar dari amnesianya, dan mengingat semua kejadian yang menimpa dirinya. Ia lalu mengarahkan pistol dan kabur meninggalkan Matt, Alice, dan Rain. Sementara Kaplan terjebak di sebuah ruangan sebelum akhirnya bisa bebas. Rain, yang telah tergigit, mulai menampakkan bahwa dirinya akan berubah menjadi zombie. Matt dan Alice mencoba keluar dan mencari pintu ke kereta api. Saat itulah mereka berdua bertemu Kaplan.  Dilain tempat, tepatnya di sisi kereta api, Spence mencoba menyelamatkan diri dengan menyuntikan antivirus. Ia tidak sadar bahwa sebuah Licker (Licker adalah mutan hasil penyuntikan virus-T kepada tubuh orang yang sehat) mendekati dirinya. Akhirnya Spence tewas dibunuh oleh Licker.  Alice bersama Matt yang sudah menemukan jalan menuju kereta langsung membawa Rain dan Kaplan beserta antivirus dan virus-T masuk kedalam kereta dan menjalankan kereta tersebut. Di tengah jalan, tiba-tiba Licker menyerang dan membunuh Kaplan serta mencakar Matt. Sementara Rain juga telah berubah menjadi zombie. Alice akhirnya menembak mati Rain, sementara Licker dibunuh dengan cara menggoreskan tubuhnya pada rel kereta api.  Kini tinggal tersisa dua yakni Matt dan Alice. Dan mereka selamat tiba di permukaan. Matt mulai menampakkan gejala bahwa dirinya akan berubah menjadi mutan akibat cakaran Licker. Saat itulah, beberapa ilmuwan Umbrella datang dan menangkap mereka berdua. Salah satu pimpinannya melihat Matt dan berkata, "Aku ingin agar dia masuk dalam program nemesis." Sementara Alice dijadikan kelinci percobaan untuk program virus-T.  Tak lama setelah itu, Alice tersadar. Dan saat ia keluar dari rumah sakit ia melihat bahwa kota sudah porak poranda. Ia lalu mengambil sebuah pistol, dan film ini berakhir sampai di adegan Alice tersebut. Dengan tanda bahwa akan ada kelanjutan (sekuel) dari film ini.' />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
